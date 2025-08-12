@@ -1,0 +1,19 @@
+---
+  el:
+    hosts:
+      centos7:
+        ansible_connection: docker
+        ansible_host: docker_1
+        ansible_user: root
+
+  deb:
+    hosts:
+      ubuntu:
+        ansible_connection: docker
+        ansible_host: docker_2
+        ansible_user: root
+
+  local:
+    hosts:
+      localhost:
+        ansible_connection: ansible.builtin.local
