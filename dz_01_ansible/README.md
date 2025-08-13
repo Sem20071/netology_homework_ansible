@@ -16,14 +16,14 @@
 13. Предоставьте скриншоты результатов запуска команд.
 
 ### Ответ:
-1. [Скриншот к пункту №1 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-01.png)
-2. [Скриншот к пункту №2 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-02.png)
-4. [Скриншот к пункту №4 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-04.png)
-5. [Скриншот к пунктам №5 - 6 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-05-06.png)
-7. [Скриншот к пункту №7 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-07.png)
-8. [Скриншот к пункту №8 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-08.png)
-9. [Скриншот к пункту №9 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-09.png)
-10. [Скриншот к пунктам №10 - 11 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-10-11.png)
+1. ![Скриншот к пункту №1 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-01.png)
+2. ![Скриншот к пункту №2 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-02.png)
+4. ![Скриншот к пункту №4 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-04.png)
+5. ![Скриншот к пунктам №5 - 6 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-05-06.png)
+7. ![Скриншот к пункту №7 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-07.png)
+8. ![Скриншот к пункту №8 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-08.png)
+9. ![Скриншот к пункту №9 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-09.png)
+10. ![Скриншот к пунктам №10 - 11 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-10-11.png)
 
 
 ### Необязательная часть
@@ -35,7 +35,7 @@
 6. Все изменения должны быть зафиксированы и отправлены в ваш личный репозиторий.
 
 ### Ответ на необязательную часть задания.
-1. [Скриншот к пункту №1 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-01.png)
-2. [Скриншот к пункту №2 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-02.png)
-3. [Скриншот к пункту №3 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-03.png)
-4. [Скриншот к пункту №4 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-04.png)
+1. ![Скриншот к пункту №1 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-01.png)
+2. ![Скриншот к пункту №2 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-02.png)
+3. ![Скриншот к пункту №3 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-03.png)
+4. ![Скриншот к пункту №4 задания](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_01_ansible/images/ansible-01-N-04.png)
