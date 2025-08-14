@@ -1,6 +1,6 @@
 ---
 - name: Install Clickhouse
-  hosts: clickhouse
+  hosts: clickhouse-01
   handlers:
     - name: Start clickhouse service
       become: true
@@ -8,17 +8,33 @@
         name: clickhouse-server
         state: restarted
   tasks:
-    - block:
+    - name: Get vector distrib
+      ansible.builtin.get_url:
+        url: "https://packages.timber.io/vector/0.49.0/vector-0.49.0-1.x86_64.rpm"
+        dest: "./vector-{{ vector_version }}-1.x86_64.rpm"
+        mode: "0644"
+        owner: aleksandrov_sp
+        group: root
+
+    - block: #Get clickhouse distrib
         - name: Get clickhouse distrib
           ansible.builtin.get_url:
             url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.noarch.rpm"
             dest: "./{{ item }}-{{ clickhouse_version }}.rpm"
+            mode: "0644"
+            owner: aleksandrov_sp
+            # group: root
           with_items: "{{ clickhouse_packages }}"
       rescue:
         - name: Get clickhouse distrib
           ansible.builtin.get_url:
-            url: "https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm"
+            url: "https://packages.clickhouse.com/rpm/stable/{{ item }}-{{ clickhouse_version }}.x86_64.rpm"
             dest: "./clickhouse-common-static-{{ clickhouse_version }}.rpm"
+            mode: "0644"
+            owner: aleksandrov_sp
+            # group: root
+          with_items: "{{ clickhouse_packages }}"
+          ignore_errors: yes
     - name: Install clickhouse packages
       become: true
       ansible.builtin.yum:
@@ -26,6 +42,8 @@
           - clickhouse-common-static-{{ clickhouse_version }}.rpm
           - clickhouse-client-{{ clickhouse_version }}.rpm
           - clickhouse-server-{{ clickhouse_version }}.rpm
+          - vector-{{ vector_version }}-1.x86_64.rpm
+        disable_gpg_check: yes
       notify: Start clickhouse service
     - name: Flush handlers
       meta: flush_handlers
