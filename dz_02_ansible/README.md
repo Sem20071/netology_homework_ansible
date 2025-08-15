@@ -14,3 +14,9 @@
 10. Готовый playbook выложите в свой репозиторий, поставьте тег `08-ansible-02-playbook` на фиксирующий коммит, в ответ предоставьте ссылку на него.
 
 ## Ответ:
+## 5 ![задание 5](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_02_ansible/images/ansible-02-05.png)
+## 6 ![задание 6](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_02_ansible/images/ansible-02-06.png)
+## 7 ![задание 7](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_02_ansible/images/ansible-02-07.png)
+## 8 ![задание 8](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_02_ansible/images/ansible-02-08.png)
+
+## https://github.com/Sem20071/netology_homework_ansible/tree/39b4a46dcb606ac35be36b46f47fb14155e08ff4/dz_02_ansible
