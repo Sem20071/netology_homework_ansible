@@ -66,7 +66,7 @@
         - lighthouse
         - distr
 
-- name: Install Clickhouse and vector
+- name: Install Clickhouse
   hosts: clickhouse-01
   become: true
   handlers:
