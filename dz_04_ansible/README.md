@@ -21,14 +21,17 @@
 11. В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
 
 ## Ответ:
-### Ссылка на playbook.
+### Ссылка на репозиторий с playbook.
 ### https://github.com/Sem20071/netology_homework_ansible/tree/main/dz_04_ansible
 
 ### Ссылка на репозиторий с ролью lighthouse
 ### https://github.com/Sem20071/lighthouse-role#
-### git@github.com:Sem20071/lighthouse-role.git
 
 ### Ссылка на репозиторий с ролью vector
 ### https://github.com/Sem20071/vector-role#
-### git@github.com:Sem20071/vector-role.git
 
+###Результат выполнения команды "ansible-galaxy install -r requirements.yml -p ./roles"
+![Скриншот результат выполнения команды](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_04_ansible/images/ansible-04-01.png)
+
+###Результат выполнения playbook
+![Скрин отработки playbook](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_04_ansible/images/ansible-04-03.png)
