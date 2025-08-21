@@ -1,6 +1,0 @@
----
-clickhouse_packages:
-  - clickhouse-client
-  - clickhouse-server
-#  - clickhouse-common-static
-ansible_ssh_common_args: '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'

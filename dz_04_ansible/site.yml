@@ -9,7 +9,7 @@
   hosts: clickhouse-01
   become: true
   roles:
-    - clickhouse-role
+    - clickhouse
 
 - name: Install Vector
   hosts: vector-01

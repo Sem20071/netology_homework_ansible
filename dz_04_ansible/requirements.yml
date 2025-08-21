@@ -9,7 +9,6 @@
     version: "1.0.1"
     name: vector-role
 
-# Задание №1   Роль clickhouse скачиваю НО не использую. В playbook использую роль clickhouse-role, код взят из предыдущих занятий.
   - src: git@github.com:AlexeySetevoi/ansible-clickhouse.git   
     scm: git
     version: "1.13"
