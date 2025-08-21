@@ -21,20 +21,14 @@
 11. В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
 
 ## Ответ:
-### 1. Создайте в старой версии playbook файл requirements.yml и заполните его содержимым:
-![задание 1]()
-### 2. При помощи ansible-galaxy скачайте себе эту роль.
-![задание 2]()
-### 3. Создайте новый каталог с ролью при помощи ansible-galaxy role init vector-role.
-![задание 4]()
-### 5. Запустите ansible-lint site.yml и исправьте ошибки, если они есть.
-![задание 5]()
-### 6. Попробуйте запустить playbook на этом окружении с флагом --check.
-![задание 6]()
-### 7. Запустите playbook на prod.yml окружении с флагом --diff. Убедитесь, что изменения на системе произведены.
-![задание 7]()
-### 8. Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.
-![задание 8]()
-## ![задание 9]()
+### Ссылка на playbook.
+### https://github.com/Sem20071/netology_homework_ansible/tree/main/dz_04_ansible
 
+### Ссылка на репозиторий с ролью lighthouse
+### https://github.com/Sem20071/lighthouse-role#
+### git@github.com:Sem20071/lighthouse-role.git
+
+### Ссылка на репозиторий с ролью vector
+### https://github.com/Sem20071/vector-role#
+### git@github.com:Sem20071/vector-role.git
 
