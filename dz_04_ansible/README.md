@@ -30,8 +30,8 @@
 ### Ссылка на репозиторий с ролью vector
 ### https://github.com/Sem20071/vector-role#
 
-###Результат выполнения команды "ansible-galaxy install -r requirements.yml -p ./roles"
+### Результат выполнения команды "ansible-galaxy install -r requirements.yml -p ./roles"
 ![Скриншот результат выполнения команды](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_04_ansible/images/ansible-04-01.png)
 
-###Результат выполнения playbook
+### Результат выполнения playbook
 ![Скрин отработки playbook](https://github.com/Sem20071/netology_homework_ansible/blob/main/dz_04_ansible/images/ansible-04-03.png)
