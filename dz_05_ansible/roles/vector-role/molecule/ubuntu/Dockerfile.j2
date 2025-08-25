@@ -1,0 +1,10 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    DEBCONF_NONINTERACTIVE_SEEN=true \
+    PYTHONUNBUFFERED=1
+
+RUN apt update && \
+    apt install curl python3.8 python3.8-distutils -y && \
+    update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1 
+    
